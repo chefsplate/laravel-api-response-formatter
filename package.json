@@ -1,0 +1,36 @@
+{
+  "name": "chefsplate/laravel-api-response-formatter",
+  "description": "Laravel-integrated formatter for consistent and customizable JSON responses",
+  "keywords": ["laravel", "api", "response format", "response", "format", "json", "doctrine", "odm", "orm"],
+  "homepage": "https://github.com/chefsplate/laravel-api-response-formatter",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "David Chang",
+      "email": "davidchchang@gmail.com"
+    },
+    {
+      "name": "Brent Manza",
+      "email": "brent.manza@chefsplate.com"
+    },
+    {
+      "name": "Ly Nguyen",
+      "email": "ly.nguyen@chefsplate.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "laravel/framework": "5.3.*|5.4.*",
+    "phpdocumentor/reflection-docblock": "^3.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "ChefsPlate\\API\\": "src/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.1-dev"
+    }
+  }
+}
